@@ -1,0 +1,137 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-image: url(https://wevaluenature.eu/sites/default/files/styles/article/public/2020-12/shutterstock_1469983160.jpg?itok=-aDNs1UX);
+    background-size: cover;
+}
+span{
+    position: fixed;
+   background-color: blue;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 100%;
+   padding: 15px;
+
+}
+span h2{
+    display: inline;
+    color: aqua;
+
+}
+.item{
+    display: inline;
+    float: inline-end;
+    margin-right: 30px;
+}
+.item a {
+    color: aqua;
+    text-decoration:none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.b{
+    
+    background-color: blue;
+    position: absolute;
+}
+#c{
+    background-size: 50%;
+    background-color: white;
+    
+}
+
+.sticky {
+    position: sticky;
+    top: 65px;
+    margin: 10px;
+}
+.lucky{
+    background: linear-gradient(to right, orange, red, green) ;
+    border: 2px solid orange;
+    border-radius: 10px;
+    height: 85px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 3px gray;
+    position: relative;
+}
+.text1 {
+    position: absolute;
+    left: 10px;
+    top: 0;
+}
+
+.text2 {
+    position: absolute;
+    left: 37%;
+    top: 25px;
+}
+
+.text3 {
+    position: absolute;
+    right: 10px;
+    top: 41px;
+}
+
+.container {
+    border: 3px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.p {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.image1, .image2, .image3 {
+    margin: 10px;
+}
+
+.image1 img {
+    object-fit: contain;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px gray;
+    width: 100%;
+    height: 200px;
+}
+
+.image2 img {
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px gray;
+    width: 100%;
+    height: 300px;
+}
+
+.image3 img {
+    object-fit: fill;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px gray;
+    width: 100%;
+    height: 300px;
+}
+
+footer {
+    background-color: green;
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
